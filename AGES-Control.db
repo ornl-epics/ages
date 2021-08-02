@@ -1,0 +1,2424 @@
+######################################################
+#Handle the Log in for admin user modes
+######################################################
+record (bo, "BL11A:SE:AGES:PLCAGESADMINLOGIN")
+{
+       field (DESC, "ADMIN USER LOG IN")
+       field (ZNAM, "User Mode ON")
+       field (ONAM, "ADMIN Mode ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+       field (OSV, "MINOR")
+
+}
+
+
+######################################################
+#Invert the ADMINLOGIN Value
+######################################################
+record(calc, "BL11A:SE:AGES:PLCAGESADMINLOGINInv") {
+  field(DESC, "Invert ADMIN LOG IN BO")	
+  field(INPA, "BL11A:SE:AGES:PLCAGESADMINLOGIN CP NMS")
+  field(CALC, "A>0?0:1")
+  info(archive, "Monitor, 00:00:01, VAL")
+
+
+}
+
+
+
+######################################################
+#Inert Clean Out
+######################################################
+
+record (bo, "BL11A:SE:AGES:INERTCLEANOUT")
+{
+       field (DESC, "Clean Out Inert Enabled")
+       field (ZNAM, "Clean Out")
+       field (ONAM, "Clean Out")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[3] B 6")
+       info (archive, "Monitor, 00:00:01, VAL")
+       field (HIGH, "1.0")	
+       field (SCAN, ".5 second")	
+}
+
+record (bi, "BL11A:SE:AGES:INERTCLEANOUTSTS")
+{
+       field (DESC, "Clean Out Inert Status")
+       field (ZNAM, "Inert Cleanout OFF")
+       field (ONAM, "Inert Cleanout ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 E01D01[3] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+       field (OSV, "MINOR")
+
+}
+
+
+record (bo, "BL11A:SE:AGES:INERTCLEANOUTAABORT")
+{
+       field (DESC, "Abort Clean Out Inert")
+       field (ZNAM, "Abort Clean Out")
+       field (ONAM, "Abort Clean Out")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[3] B 12")
+       info (archive, "Monitor, 00:00:01, VAL")
+       field (HIGH, "1.0")
+       field (SCAN, ".5 second")
+}
+
+
+
+record (ao, "BL11A:SE:AGES:INERTCLEANOUTTIMERmS")
+{
+       field (DESC, "Time left on pump down")
+       field (EGU, "mS")
+       field(PREC, "1")
+       field (ADEL, "0.001")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 P01D01[3]")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+
+
+}
+
+
+record(calc, "BL11A:SE:AGES:INERTCLEANOUTTIMER")
+{
+    field(DESC, "Haz Pump Time Remaining Seconds")
+    field(INPA, "BL11A:SE:AGES:INERTCLEANOUTTIMERmS CP")
+    field(CALC, "A/1000")
+    field(EGU, "Seconds")
+    field(PREC, "1")
+    field(ADEL, "1")
+    info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+
+######################################################
+#Haz Clean Out
+######################################################
+
+record (bo, "BL11A:SE:AGES:HAZCLEANOUT")
+{
+       field (DESC, "Clean Out Haz Enabled")
+       field (ZNAM, "Clean Out")
+       field (ONAM, "Clean Out")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[4] B 6")
+       info (archive, "Monitor, 00:00:01, VAL")
+       field (HIGH, "1.0")
+       field (SCAN, ".5 second")
+}
+
+
+record (bi, "BL11A:SE:AGES:HAZCLEANOUTSTS")
+{
+       field (DESC, "Clean Out Haz Status")
+       field (ZNAM, "Haz Cleanout OFF")
+       field (ONAM, "Haz Cleanout ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 E01D01[4] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+       field (OSV, "MINOR")
+
+}
+
+
+record (bo, "BL11A:SE:AGES:HAZCLEANOUTAABORT")
+{
+       field (DESC, "Abort Clean Out Haz")
+       field (ZNAM, "Abort Clean Out")
+       field (ONAM, "Abort Clean Out")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[4] B 12")
+       info (archive, "Monitor, 00:00:01, VAL")
+       field (HIGH, "1.0")
+       field (SCAN, ".5 second")
+}
+
+
+
+
+record (ao, "BL11A:SE:AGES:HAZCLEANOUTTIMERmS")
+{
+       field (DESC, "Time left on pump down")
+       field (EGU, "mS")
+       field(PREC, "1")
+       field (ADEL, "0.001")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 P01D01[4]")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+
+
+}
+
+
+record(calc, "BL11A:SE:AGES:HAZCLEANOUTTIMER")
+{
+    field(DESC, "Haz Pump Time Remaining Seconds")
+    field(INPA, "BL11A:SE:AGES:HAZCLEANOUTTIMERmS CP")
+    field(CALC, "A/1000")
+    field(EGU, "Seconds")
+    field(PREC, "1")
+    field(ADEL, "1")
+    info(archive, "Monitor, 00:00:01, VAL")
+}
+
+#####################################################
+#Inert BackFill
+#####################################################
+record (bo, "BL11A:SE:AGES:INERTBACKFILL")
+{
+       field (DESC, "Inert BackFill Enabled")
+       field (ZNAM, "Inert BackFill")
+       field (ONAM, "Inert BackFill")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[5] B 6")
+       info (archive, "Monitor, 00:00:01, VAL")
+       field (HIGH, "1.0")
+
+}
+
+
+
+record (calcout, "BL11A:SE:AGES:INERTWAITBACKFILL")
+{
+       field (SCAN, "1 second")
+       field (INPA, "BL11A:SE:AGES:PressReadPI04")
+       field (INPB, "BL11A:SE:AGES:INERTBACKFILLSTS")
+       field (CALC, "A>0&B")
+       field (OUT, "BL11A:SE:AGES:INERTBACKFILLABORT")
+       field (OOPT, "Transition To Non-zero")
+       info (archive, "Monitor, 00:00:01, VAL")
+
+}
+
+
+record (bi, "BL11A:SE:AGES:INERTBACKFILLSTS")
+{
+       field (DESC, "Inert BackFill Status")
+       field (ZNAM, "Inert BackFill OFF")
+       field (ONAM, "Inert BackFill ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 E01D01[5] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+       field (OSV, "MINOR")
+}
+
+#set flows to 500 or 0 depending on backfill state
+record (calcout, "BL11A:SE:AGES:INERTBACKFILLFLOW")
+{
+       field (INPA, "BL11A:SE:AGES:INERTBACKFILLSTS CP")
+       field (CALC, "A>0?300:0")
+       field (OUT, "BL11A:SE:AlicatAges:DMassFlowSPWrite CPP") #PV on another ioc
+       field (OOPT, "On Change")
+       info (archive, "Monitor, 00:00:01, VAL")
+}
+
+
+#set N2 MFC to ON
+record (calcout, "BL11A:SE:AGES:INERTBACKFILLFLOWON")
+{
+       field (INPA, "BL11A:SE:AGES:INERTBACKFILLSTS CP")
+       field (CALC, "A")
+       field (OUT, "BL11A:SE:AGES:INERTBTN4 CPP") #PV on another ioc
+       field (OOPT, "On Change")
+       info (archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+
+record (bo, "BL11A:SE:AGES:INERTBACKFILLABORT")
+{
+       field (DESC, "Abort Inert BackFill")
+       field (ZNAM, "Abort Inert BackFill")
+       field (ONAM, "Abort Inert BackFill")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[5] B 12")
+       info (archive, "Monitor, 00:00:01, VAL")
+       field (HIGH, "1.0")
+       field (SCAN, ".5 second")
+
+}
+
+
+
+record (ao, "BL11A:SE:AGES:INERTBACKFILLTIMERmS")
+{
+       field (DESC, "Inert Back Fill Timer 1")
+       field (EGU, "mS")
+       field(PREC, "1")
+       field (ADEL, "0.001")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 P01D01[5]")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record(calc, "BL11A:SE:AGES:INERTBACKFILLTIMER")
+{
+    field(DESC, "Haz Pump Time Remaining Seconds")
+    field(INPA, "BL11A:SE:AGES:INERTBACKFILLTIMERmS CP")
+    field(CALC, "A/1000")
+    field(EGU, "Seconds")
+    field(PREC, "1")
+    field(ADEL, "1")
+    info(archive, "Monitor, 00:00:01, VAL")
+
+}
+
+#####################################################
+##Haz BackFill
+######################################################
+record (bo, "BL11A:SE:AGES:HAZBACKFILL")
+{
+       field (DESC, "Haz BackFill Enabled")
+       field (ZNAM, "Haz BackFill")
+       field (ONAM, "Haz BackFill")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[6] B 6")
+       info (archive, "Monitor, 00:00:01, VAL")
+       field (HIGH, "1.0")
+
+}
+
+
+
+record (calcout, "BL11A:SE:AGES:HAZWAITBACKFILL")
+{
+       field (SCAN, "1 second")
+       field (INPA, "BL11A:SE:AGES:PressReadPI03")
+       field (INPB, "BL11A:SE:AGES:HAZBACKFILLSTS")
+       field (CALC, "A>0&B")
+       field (OUT, "BL11A:SE:AGES:HAZBACKFILLABORT")
+       field (OOPT, "Transition To Non-zero")
+       info (archive, "Monitor, 00:00:01, VAL")
+
+}
+
+
+record (bi, "BL11A:SE:AGES:HAZBACKFILLSTS")
+{
+       field (DESC, "Haz BackFill Status")
+       field (ZNAM, "Haz BackFill OFF")
+       field (ONAM, "Haz BackFill ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 E01D01[6] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+       field (OSV, "MINOR")
+
+}
+
+#set flows to 500 or 0 depending on backfill state
+record (calcout, "BL11A:SE:AGES:HAZBACKFILLFLOW")
+{
+       field (INPA, "BL11A:SE:AGES:HAZBACKFILLSTS CP")
+       field (CALC, "A>0?300:0")
+       field (OUT, "BL11A:SE:AlicatAges:DMassFlowSPWrite CPP") #PV on another ioc
+       field (OOPT, "On Change")
+       info (archive, "Monitor, 00:00:01, VAL")
+
+}
+
+#set N2 MFC to ON
+record (calcout, "BL11A:SE:AGES:HAZBACKFILLFLOWON")
+{
+       field (INPA, "BL11A:SE:AGES:HAZBACKFILLSTS CP")
+       field (CALC, "A")
+       field (OUT, "BL11A:SE:AGES:INERTBTN4 CPP") #PV on another ioc
+       field (OOPT, "On Change")
+       info (archive, "Monitor, 00:00:01, VAL")
+
+}
+
+
+
+
+record (bo, "BL11A:SE:AGES:HAZBACKFILLABORT")
+{
+       field (DESC, "Abort Haz BackFill")
+       field (ZNAM, "Abort Haz BackFill")
+       field (ONAM, "Abort Haz BackFill")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[6] B 12")
+       info (archive, "Monitor, 00:00:01, VAL")
+       field (HIGH, "1.0")
+       field (SCAN, ".5 second")
+
+}
+
+
+
+record (ao, "BL11A:SE:AGES:HAZBACKFILLTIMERmS")
+{
+       field (DESC, "Haz Back Fill Timer 1")
+       field (EGU, "mS")
+       field(PREC, "1")
+       field (ADEL, "0.001")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 P01D01[6]")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record(calc, "BL11A:SE:AGES:HAZBACKFILLTIMER")
+{
+    field(DESC, "Time Remaining Seconds")
+    field(INPA, "BL11A:SE:AGES:HAZBACKFILLTIMERmS CP")
+    field(CALC, "A/1000")
+    field(EGU, "Seconds")
+    field(PREC, "1")
+    field(ADEL, "1")
+    info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+
+#####################################################
+#Haz Wet Dry
+#####################################################
+
+
+record (bo, "BL11A:SE:AGES:HAZWETDRY")
+{
+       field (DESC, "Set Wet or dry section")
+       field (ZNAM, "WET")
+       field (ONAM, "DRY")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 8")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+#Inert Button Gas1
+####################################################
+
+record (bo, "BL11A:SE:AGES:INERTBTN1")
+{
+       field (DESC, "InertButton 1")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 1")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+####################################################
+##Inert Button Gas2
+#####################################################
+record (bo, "BL11A:SE:AGES:INERTBTN2")
+{
+       field (DESC, "InertButton 2")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 2")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+####################################################
+##Inert Button Gas3
+#####################################################
+record (bo, "BL11A:SE:AGES:INERTBTN3")
+{
+       field (DESC, "InertButton 3")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 3")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+####################################################
+###Inert Button Gas4
+######################################################
+record (bo, "BL11A:SE:AGES:INERTBTN4")
+{
+       field (DESC, "InertButton 4")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 4")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+####Inert Button Gas5
+#######################################################
+record (bo, "BL11A:SE:AGES:INERTBTN5")
+{
+       field (DESC, "InertButton 5")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 5")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+#####Inert Button Gas6
+########################################################
+record (bo, "BL11A:SE:AGES:INERTBTN6")
+{
+       field (DESC, "InertButton 6")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 6")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+######Inert Button Gas7
+#########################################################
+record (bo, "BL11A:SE:AGES:INERTBTN7")
+{
+       field (DESC, "InertButton 7")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 7")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+#Haz Button 1A
+####################################################
+record (bo, "BL11A:SE:AGES:HAZBTN1A")
+{
+       field (DESC, "HaztButton 1A")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 9")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+####################################################
+##Haz Button 1B
+#####################################################
+record (bo, "BL11A:SE:AGES:HAZBTN1B")
+{
+       field (DESC, "HaztButton 1B")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 10")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+###Haz Button 2A
+######################################################
+record (bo, "BL11A:SE:AGES:HAZBTN2A")
+{
+       field (DESC, "HaztButton 2A")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 11")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+####Haz Button 2B
+#######################################################
+record (bo, "BL11A:SE:AGES:HAZBTN2B")
+{      
+       field (DESC, "HaztButton 2B")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 12")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+#####Haz Button 3A
+########################################################
+record (bo, "BL11A:SE:AGES:HAZBTN3A")
+{
+       field (DESC, "HaztButton 3A")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 13")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+######Haz Button 3B
+#########################################################
+record (bo, "BL11A:SE:AGES:HAZBTN3B")
+{
+       field (DESC, "HaztButton 3B")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 14")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+#######Haz Button 4A
+##########################################################
+record (bo, "BL11A:SE:AGES:HAZBTN4A")
+{
+       field (DESC, "HaztButton 4A")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 15")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+####################################################
+########Haz Button 4B
+###########################################################
+record (bo, "BL11A:SE:AGES:HAZBTN4B")
+{
+       field (DESC, "HaztButton 4B")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[2] B 16")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+################################
+#Valve Control Solenoid
+################################
+
+record (bo, "BL11A:SE:AGES:ValveSet1A")
+{ 
+       field (DESC, "Valve 1A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+#       field(SDIS, "BL11A:SE:AGES:PLCAGESADMINLOGINInv.VAL")	
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead1A")
+{
+       field (DESC, "Valve 1A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet1B")
+{ 
+       field (DESC, "Valve 1B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 1")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead1B")
+{
+       field (DESC, "Valve 1B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 1")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet2A")
+{ 
+       field (DESC, "Valve 2A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 2")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead2A")
+{
+       field (DESC, "Valve 2A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 2")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet2B")
+{ 
+       field (DESC, "Valve 2B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 3")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead2B")
+{
+       field (DESC, "Valve 2B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 3")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet3A")
+{ 
+       field (DESC, "Valve 3A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 4")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead3A")
+{
+       field (DESC, "Valve 3A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 4")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet3B0")
+{ 
+       field (DESC, "Valve 3B0 Write Intrlk")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 5")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead3B0")
+{
+       field (DESC, "Valve 3B0 READ Intrlk")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 5")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet4A")
+{ 
+       field (DESC, "Valve 4A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 6")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead4A")
+{
+       field (DESC, "Valve 4A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 6")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet4B")
+{ 
+       field (DESC, "Valve 4B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 7")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead4B")
+{
+       field (DESC, "Valve 4B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 7")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet5A")
+{ 
+       field (DESC, "Valve 5A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 8")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead5A")
+{
+       field (DESC, "Valve 5A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 8")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet5B")
+{ 
+       field (DESC, "Valve 5B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 9")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead5B")
+{
+       field (DESC, "Valve 5B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 9")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet6A")
+{ 
+       field (DESC, "Valve 6A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 10")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead6A")
+{
+       field (DESC, "Valve 6A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 10")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet6B")
+{ 
+       field (DESC, "Valve 6B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 11")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead6B")
+{
+       field (DESC, "Valve 6B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 11")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet7A")
+{ 
+       field (DESC, "Valve 7A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 12")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead7A")
+{
+       field (DESC, "Valve 7A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 12")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet7B")
+{ 
+       field (DESC, "Valve 7B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 13")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead7B")
+{
+       field (DESC, "Valve 7B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 13")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet8A")
+{ 
+       field (DESC, "Valve 8A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 14")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead8A")
+{
+       field (DESC, "Valve 8A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 14")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet8B")
+{ 
+       field (DESC, "Valve 8B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 15")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead8B")
+{
+       field (DESC, "Valve 8B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 15")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet9A")
+{ 
+       field (DESC, "Valve 9A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 16")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead9A")
+{
+       field (DESC, "Valve 9A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 16")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet9B")
+{ 
+       field (DESC, "Valve 9B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 17")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead9B")
+{
+       field (DESC, "Valve 9B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 17")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet11A")
+{ 
+       field (DESC, "Valve 11A")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 18")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead11A")
+{
+       field (DESC, "Valve 11A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 18")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet11B")
+{ 
+       field (DESC, "Valve 11B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 19")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead11B")
+{
+       field (DESC, "Valve 11B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 19")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet12A")
+{ 
+       field (DESC, "Valve 12A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 20")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead12A")
+{
+       field (DESC, "Valve 12A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 20")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet12B")
+{ 
+       field (DESC, "Valve 12B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 21")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead12B")
+{
+       field (DESC, "Valve 12B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 21")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet13A")
+{ 
+       field (DESC, "Valve 13A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 22")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead13A")
+{
+       field (DESC, "Valve 13A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 22")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet13B")
+{ 
+       field (DESC, "Valve 13B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 23")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead13B")
+{
+       field (DESC, "Valve 13B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 23")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet14A")
+{ 
+       field (DESC, "Valve 14A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 24")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead14A")
+{
+       field (DESC, "Valve 14A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 24")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet14B")
+{ 
+       field (DESC, "Valve 14B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 25")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead14B")
+{
+       field (DESC, "Valve 14B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 25")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet15A")
+{ 
+       field (DESC, "Valve 15A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 26")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead15A")
+{
+       field (DESC, "Valve 15A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 26")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:HazPumpSet")
+{ 
+       field (DESC, "Haz Pump ON OFF Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 29")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:HazPumpRead")
+{
+       field (DESC, "Haz Pump ON OFF READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 29")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:InertPumpSet")
+{ 
+       field (DESC, "Inert Pump ON OFF Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[0] B 30")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:InertPumpRead")
+{
+       field (DESC, "Inert Pump ON OFF Read")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[0] B 30")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#MODULE 3 Start Digital OUTPUT on PLC
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet15B")
+{ 
+       field (DESC, "Valve 15B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead15B")
+{
+       field (DESC, "Valve 15B  READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 0")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet16A")
+{ 
+       field (DESC, "Valve 16A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 1")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead16A")
+{
+       field (DESC, "Valve 16A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 1")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet16B")
+{ 
+       field (DESC, "Valve 16B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 2")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead16B")
+{
+       field (DESC, "Valve 16B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 2")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet17A")
+{ 
+       field (DESC, "Valve 17A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 3")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead17A")
+{
+       field (DESC, "Valve 17A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 3")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet17B")
+{ 
+       field (DESC, "Valve 17B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 4")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead17B")
+{
+       field (DESC, "Valve 17B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 4")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet18A")
+{ 
+       field (DESC, "Valve 18A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 5")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead18A")
+{
+       field (DESC, "Valve 18A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 5")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet18B")
+{ 
+       field (DESC, "Valve 18B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 6")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead18B")
+{
+       field (DESC, "Valve 18B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 6")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet19A")
+{ 
+       field (DESC, "Valve 19A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 7")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead19A")
+{
+       field (DESC, "Valve 19A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 7")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet19B")
+{ 
+       field (DESC, "Valve 19B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 8")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead19B")
+{
+       field (DESC, "Valve 19B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 8")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet20A")
+{ 
+       field (DESC, "Valve 20A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 9")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead20A")
+{
+       field (DESC, "Valve 20A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 9")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet20B")
+{ 
+       field (DESC, "Valve 20B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 10")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead20B")
+{
+       field (DESC, "Valve 20B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 10")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet21A")
+{ 
+       field (DESC, "Valve 21A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 11")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead21A")
+{
+       field (DESC, "Valve 21A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 11")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet21B")
+{ 
+       field (DESC, "Valve 21B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 12")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead21B")
+{
+       field (DESC, "Valve 21B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 12")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet22A")
+{ 
+       field (DESC, "Valve 22A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 13")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead22A")
+{
+       field (DESC, "Valve 22A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 13")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet22B")
+{ 
+       field (DESC, "Valve 22B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 14")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead22B")
+{
+       field (DESC, "Valve 22B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 14")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet23A")
+{ 
+       field (DESC, "Valve 23A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 15")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead23A")
+{
+       field (DESC, "Valve 23A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 15")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet23B")
+{ 
+       field (DESC, "Valve 23B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 16")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead23B")
+{
+       field (DESC, "Valve 23B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 16")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet10A")
+{ 
+       field (DESC, "Valve 10A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 17")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead10A")
+{
+       field (DESC, "Valve 10A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 17")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet10B")
+{ 
+       field (DESC, "Valve 10B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 18")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead10B")
+{
+       field (DESC, "Valve 10B  READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 18")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet111A")
+{ 
+       field (DESC, "Valve 111A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 19")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead111A")
+{
+       field (DESC, "Valve 111A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 19")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet111B")
+{ 
+       field (DESC, "Valve 111B Write Normally OPEN")
+       field (ZNAM, "ON")
+       field (ONAM, "OFF")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 20")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead111B")
+{
+       field (DESC, "Valve 111B READ Nornally OPEN")
+       field (ZNAM, "ON")
+       field (ONAM, "OFF")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 20")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet112A")
+{ 
+       field (DESC, "Valve 112A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 21")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead112A")
+{
+       field (DESC, "Valve 112A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 21")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet112B")
+{ 
+       field (DESC, "Valve 112B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 22")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead112B")
+{
+       field (DESC, "Valve 112B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 22")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet113A")
+{ 
+       field (DESC, "Valve 113A Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 23")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead113A")
+{
+       field (DESC, "Valve 113A READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 23")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+##############################
+#Solenoid
+##############################
+
+record (bo, "BL11A:SE:AGES:ValveSet113B")
+{ 
+       field (DESC, "Valve 113B Write")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 E01D01[1] B 24")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record (bi, "BL11A:SE:AGES:ValveRead113B")
+{
+       field (DESC, "Valve 113B READ")
+       field (ZNAM, "OFF")
+       field (ONAM, "ON")
+       field (DTYP, "EtherIP")
+       field (INP, "@plc1 P01D01[1] B 24")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+###################################################
+#Read Analog Input module 0-15 PLCAGESAIM4I0R
+#
+#PLC- AGES system AI= Analog Input Module 4 I=Integer 0 array index R=Read
+###################################################
+
+##################################################
+#PI-04 Inert cabinet
+##################################################
+
+record (ao, "BL11A:SE:AGES:AnalogReadPI04")
+{
+       field (DESC, "Read PI-04 Inert Raw Votage")
+       field (EGU, "V")
+       field(PREC, "3")
+       field (ADEL, "0.1")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 P01R01[13]")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+record(calc, "BL11A:SE:AGES:PressReadPI04")
+{
+    field(DESC, "Format PI-04 Inert reading")
+    field(INPA, " BL11A:SE:AGES:AnalogReadPI04 CP")
+    field(CALC, "(A*7.283)-21.15")
+    field(EGU, "PSI")
+    field(PREC, "2")
+    field(ADEL, "0.1")
+    info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+####################################################
+record (ao, "BL11A:SE:AGES:AnalogReadPI03")
+{
+       field (DESC, "Read PI-03 Haz Raw Votage")
+       field (EGU, "V")
+       field(PREC, "3")
+       field (ADEL, "0.1")
+       field (DTYP, "EtherIP")
+       field (OUT, "@plc1 P01R01[14]")
+       field (SCAN, ".5 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+}
+
+record(calc, "BL11A:SE:AGES:PressReadPI03")
+{
+    field(DESC, "Format PI-03 Haz reading")
+    field(INPA, "BL11A:SE:AGES:AnalogReadPI03 CP")
+    field(CALC, "(A*36.42)-37.49")
+    field(EGU, "PSI")
+    field(PREC, "2")
+    field(ADEL, "0.1")
+    info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+
+
+################################################
+#PO2
+################################################
+record (ai, "BL11A:SE:AGES:AnalogReadPO2")
+{
+       field (DESC, "Read PO2 Raw Voltage")
+       field (EGU, "V")
+       field(PREC, "4")
+#       field (DTYP, "EtherIP")
+       field (INP, "BL11A:SE:GC:VIn5 CPP NMS")
+#       field (OUT, "@plc1 P01R01[15]")    //change to read from PLC
+       field (SCAN, "1 second")
+       info(archive, "Monitor, 00:00:01, VAL")
+
+
+}
+
+record(calc, "BL11A:SE:AGES:LogReadPO2")
+{
+    field(DESC, "Format log PO2 Sensor")
+    field(INPA, "BL11A:SE:AGES:AnalogReadPO2 CP")
+    field(CALC, "((A*-17.861)-0.675)")
+    field(PREC, "4")
+    info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record(calc, "BL11A:SE:AGES:ReadPO2")
+{
+    field(DESC, "Format PO2 Sensor")
+    field(INPA, "BL11A:SE:AGES:LogReadPO2 CP")
+    field(CALC, "10^A")
+    field(PREC, "4")
+    info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+#####################################################################
+#Alarm Handler ALicat AGES
+#####################################################################
+
+
+
+record(calc, "BL11A:SE:AGES:GlobalAlicatAlarm")
+{
+    field(INPA, "BL11A:SE:AlicatAges:AMassFlow.SEVR CPP")
+    field(INPB, "BL11A:SE:AlicatAges:BMassFlow.SEVR CPP")
+    field(INPC, "BL11A:SE:AlicatAges:CMassFlow.SEVR CPP")
+    field(INPD, "BL11A:SE:AlicatAges:DMassFlow.SEVR CPP")
+    field(INPE, "BL11A:SE:AlicatAges:EMassFlow.SEVR CPP")
+    field(INPF, "BL11A:SE:AlicatAges:FMassFlow.SEVR CPP")
+    field(INPG, "BL11A:SE:AlicatAges:GMassFlow.SEVR CPP")
+    field(INPH, "BL11A:SE:AGES:GlobalAlicatAlarmDisable CPP")
+    field(CALC, "((A>0)|(B>0)|(C>0)|(D>0)|(E>0)|(F>0)|(G>0))&H")
+    field(HIHI, "1")
+    field(LOLO, "0")
+    field(HHSV, "MAJOR")
+    field(LLSV, "NO_ALARM")
+    field(PINI, "YES")
+    info(archive, "Monitor, 00:00:01, VAL")
+
+}
+
+
+
+
+record(bi, "BL11A:SE:AGES:GlobalAlicatAlarmDisable")
+{
+        field(DESC, "Summary Alarm Enable")
+        field(ZNAM, "Disabled")
+        field(ONAM, "Enabled")
+        field(ASG, "ALWAYS")
+        field(PINI, "YES")
+        info(archive, "Monitor, 00:00:01, VAL")
+        field(ZSV, "MINOR")
+        field(OSV, "NO_ALARM")
+
+}
+
+########################################################################
+#Alarm Handler MKS AGES
+########################################################################
+
+
+
+
+record(calc, "BL11A:SE:AGES:GlobalMKSAlarm")
+{
+    field(INPA, "BL11A:SE:mks647c:AGasFlow.SEVR CPP")
+    field(INPB, "BL11A:SE:mks647c:BGasFlow.SEVR CPP")
+    field(INPC, "BL11A:SE:mks647c:CGasFlow.SEVR CPP")
+    field(INPD, "BL11A:SE:mks647c:DGasFlow.SEVR CPP")
+    field(INPE, "BL11A:SE:AGES:GlobalMKSAlarmDisable CPP")
+    field(CALC, "((A>0)|(B>0)|(C>0)|(D>0))&E")
+    field(HIHI, "1")
+    field(LOLO, "0")
+    field(HHSV, "MAJOR")
+    field(LLSV, "NO_ALARM")
+    field(PINI, "YES")
+    info(archive, "Monitor, 00:00:01, VAL")
+
+}
+
+
+record(bi, "BL11A:SE:AGES:GlobalMKSAlarmDisable")
+{
+        field(DESC, "Summary Alarm Enable")
+        field(ZNAM, "Disabled")
+        field(ONAM, "Enabled")
+        field(ASG, "ALWAYS")
+        field(PINI, "YES")
+        info(archive, "Monitor, 00:00:01, VAL")
+        field(ZSV, "MINOR")
+        field(OSV, "NO_ALARM")
+
+}
+
+
+###########################################################################
+#Global Alarm
+###########################################################################
+#BL11A:SE:AGES:GlobalAlarm
+
+
+record(calc, "BL11A:SE:AGES:GlobalAlarmCalc")
+{
+    field(INPA, "BL11A:SE:AGES:GlobalAlicatAlarm CPP")
+    field(INPB, "BL11A:SE:AGES:GlobalMKSAlarm CPP")
+    field(INPE, "BL11A:SE:AGES:GlobalAlarmDisable CPP")
+    field(CALC, "(A|B)&E")
+    field(HIHI, "1")
+    field(LOLO, "0")
+    field(HHSV, "NO_ALARM")
+    field(LLSV, "MAJOR")
+    field(PINI, "YES")
+    info(archive, "Monitor, 00:00:01, VAL")
+}
+
+
+record(bi, "BL11A:SE:AGES:GlobalAlarmDisable")
+{
+        field(DESC, "Summary Alarm Enable")
+        field(ZNAM, "Alarm Disabled")
+        field(ONAM, "Alarm Enabled")
+        field(ASG, "ALWAYS")
+        field(PINI, "YES")
+        info(archive, "Monitor, 00:00:01, VAL")
+        field(ZSV, "MINOR")
+        field(OSV, "NO_ALARM")
+}
+
+record(bi, "BL11A:SE:AGES:GlobalAlarm")
+{
+        field(DESC, "Global alarms MKS and Alicat")
+        field(ZNAM, "NO_ALARM")
+        field(ONAM, "MAJOR")
+        field(PINI, "YES")
+        info(archive, "Monitor, 00:00:01, VAL")
+        field(ZSV, "NO_ALARM")
+        field(OSV, "MAJOR")
+}
+
+
+#Disable timer when starting on the debouce.template Problem in template?
+record(dfanout,"BL11A:SE:AGES:Debounce:Timer:Disable")
+{
+	field(PINI, "YES")
+}
+

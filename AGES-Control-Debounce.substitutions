@@ -1,0 +1,6 @@
+file debounce.template 
+{
+pattern { S, INPUT, OUTPUT, TIME }
+  { BL11A:SE:AGES, BL11A:SE:AGES:GlobalAlarmCalc, BL11A:SE:AGES:GlobalAlarm, 30 }
+}
+

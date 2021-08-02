@@ -1,0 +1,3289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>BL11A AGES</name>
+  <x>1840</x>
+  <y>167</y>
+  <width>969</width>
+  <height>1000</height>
+  <background_color>
+    <color name="OPI_Background" red="255" green="255" blue="255">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>129</x>
+    <y>84</y>
+    <width>383</width>
+    <height>61</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="grey-4" red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>376</x>
+    <y>94</y>
+    <width>121</width>
+    <height>27</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GLOBAL title" red="158" green="158" blue="158">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>560</x>
+    <y>322</y>
+    <width>73</width>
+    <height>1</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="blue" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="72.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>310</x>
+    <y>243</y>
+    <width>126</width>
+    <height>247</height>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>288</x>
+    <y>300</y>
+    <width>59</width>
+    <height>6</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="58.0" y="0.0">
+      </point>
+      <point x="58.0" y="5.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>338</x>
+    <y>285</y>
+    <width>66</width>
+    <height>34</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>146</x>
+    <y>159</y>
+    <width>347</width>
+    <height>370</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>599</x>
+    <y>387</y>
+    <width>220</width>
+    <height>5</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="218.0" y="0.0">
+      </point>
+      <point x="219.0" y="4.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>482</x>
+    <y>825</y>
+    <width>122</width>
+    <height>3</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="2.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+      <point x="121.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <width>641</width>
+    <height>63</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="TARGET title" red="184" green="181" blue="198">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>Beamline 11A-POWGEN-AGES Gas Control System</text>
+    <x>12</x>
+    <y>7</y>
+    <width>657</width>
+    <height>51</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="17.821782178217823">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="CF canvas" red="221" green="202" blue="221">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <y>60</y>
+    <width>1097</width>
+    <height>1</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="1084.0" y="0.0">
+      </point>
+      <point x="1096.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>371</x>
+    <y>751</y>
+    <width>112</width>
+    <height>109</height>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>260</x>
+    <y>751</y>
+    <width>112</width>
+    <height>109</height>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>HAZARDOUS
+
+GASES</text>
+    <x>381</x>
+    <y>781</y>
+    <width>71</width>
+    <height>41</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>INERT
+
+GASES</text>
+    <x>292</x>
+    <y>777</y>
+    <width>37</width>
+    <height>41</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>603</x>
+    <y>818</y>
+    <width>21</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="brt-orange" red="254" green="142" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="brt-orange" red="254" green="142" blue="0">
+      </color>
+    </background_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="19.0">
+      </point>
+      <point x="20.0" y="10.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>0</name>
+    <x>631</x>
+    <y>483</y>
+    <width>38</width>
+    <height>35</height>
+    <style>3</style>
+    <foreground_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <widget type="bool_button" version="2.0.0">
+      <name>EDM Button</name>
+      <pv_name>BL11A:AGES:ES1175:Reset</pv_name>
+      <width>38</width>
+      <height>35</height>
+      <off_label></off_label>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_label></on_label>
+      <on_color>
+        <color red="255" green="255" blue="0">
+        </color>
+      </on_color>
+      <show_led>false</show_led>
+      <font>
+        <font family="courier" style="BOLD" size="12.871287128712872">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <actions>
+        <action type="write_pv">
+          <pv_name>BL11A:AGES:ES1175:Reset</pv_name>
+          <value>1</value>
+        </action>
+      </actions>
+      <rules>
+        <rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="TARGET canvas" red="205" green="202" blue="221">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:ES1175:Reset</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>RESET
+AC POWER</text>
+    <x>629</x>
+    <y>520</y>
+    <width>60</width>
+    <height>27</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>CAB11A-02
+
+
+
+
+
+AGES
+HAZARDOUS
+GAS CABINET</text>
+    <x>326</x>
+    <y>249</y>
+    <width>75</width>
+    <height>125</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>415</x>
+    <y>218</y>
+    <width>41</width>
+    <height>1</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="40.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>454</x>
+    <y>219</y>
+    <width>1</width>
+    <height>42</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="41.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>434</x>
+    <y>259</y>
+    <width>22</width>
+    <height>1</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="21.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>404</x>
+    <y>301</y>
+    <width>98</width>
+    <height>1</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="blue" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="97.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>509</x>
+    <y>204</y>
+    <width>80</width>
+    <height>1</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="79.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>586</x>
+    <y>167</y>
+    <width>181</width>
+    <height>47</height>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green-Red" red="0" green="255" blue="0">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="background_color_Green-Red" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.5 &amp;&amp; pv0&lt;0.5">
+          <value>
+            <color name="Monitor: NORMAL" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0&gt;=0.5  &amp;&amp; pv0&lt;=1.5">
+          <value>
+            <color name="Monitor: MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:AAH1173D:Alarm</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>GAS CONCENTRATION</text>
+    <x>595</x>
+    <y>182</y>
+    <width>122</width>
+    <height>13</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM Ellipse</name>
+    <x>198</x>
+    <y>358</y>
+    <width>36</width>
+    <height>36</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>CO</text>
+    <x>206</x>
+    <y>368</y>
+    <width>15</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>215</x>
+    <y>177</y>
+    <width>373</width>
+    <height>1</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="372.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>216</x>
+    <y>178</y>
+    <width>1</width>
+    <height>182</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="181.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>508</x>
+    <y>203</y>
+    <width>1</width>
+    <height>185</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="184.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>436</x>
+    <y>387</y>
+    <width>188</width>
+    <height>1</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="175.0" y="0.0">
+      </point>
+      <point x="187.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>812</x>
+    <y>378</y>
+    <width>21</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="brt-orange" red="254" green="142" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="brt-orange" red="254" green="142" blue="0">
+      </color>
+    </background_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="19.0">
+      </point>
+      <point x="20.0" y="10.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>289</x>
+    <y>302</y>
+    <width>1</width>
+    <height>352</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="351.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>288</x>
+    <y>655</y>
+    <width>234</width>
+    <height>3</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="231.0" y="0.0">
+      </point>
+      <point x="233.0" y="2.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>519</x>
+    <y>653</y>
+    <width>1</width>
+    <height>128</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="127.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>481</x>
+    <y>779</y>
+    <width>39</width>
+    <height>3</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="38.0" y="0.0">
+      </point>
+      <point x="38.0" y="2.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>435</x>
+    <y>467</y>
+    <width>294</width>
+    <height>1</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="293.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>AC ON</text>
+    <x>611</x>
+    <y>456</y>
+    <width>76</width>
+    <height>24</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="green" red="0" green="255" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="visibleRule" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=0.5&amp;&amp; pv0&lt;1.5">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>BL11A:AGES:ES1175:Status</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>120 VAC</text>
+    <x>734</x>
+    <y>459</y>
+    <width>47</width>
+    <height>13</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>MSA MONITOR</text>
+    <x>619</x>
+    <y>147</y>
+    <width>82</width>
+    <height>13</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>GAS MONITOR</text>
+    <x>164</x>
+    <y>404</y>
+    <width>80</width>
+    <height>13</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>BL-1162A</text>
+    <x>598</x>
+    <y>428</y>
+    <width>86</width>
+    <height>22</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="11.881188118811881">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>BL-1162B</text>
+    <x>711</x>
+    <y>428</y>
+    <width>86</width>
+    <height>22</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="11.881188118811881">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>DPT-1166</text>
+    <x>332</x>
+    <y>187</y>
+    <width>49</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>AC OFF</text>
+    <x>611</x>
+    <y>456</y>
+    <width>76</width>
+    <height>24</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="red" red="255" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="visibleRule" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.5&amp;&amp; pv0&lt;0.5">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>BL11A:AGES:ES1175:Status</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM Ellipse</name>
+    <x>163</x>
+    <y>358</y>
+    <width>36</width>
+    <height>36</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>COMB</text>
+    <x>164</x>
+    <y>369</y>
+    <width>24</width>
+    <height>9</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="6.930693069306931">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM Ellipse</name>
+    <x>233</x>
+    <y>358</y>
+    <width>36</width>
+    <height>36</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>NH3</text>
+    <x>238</x>
+    <y>368</y>
+    <width>22</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>EDM arc</name>
+    <x>495</x>
+    <y>289</y>
+    <width>30</width>
+    <height>30</height>
+    <total_angle>180.0</total_angle>
+    <line_width>5</line_width>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>FLOW
+METERS</text>
+    <x>345</x>
+    <y>289</y>
+    <width>41</width>
+    <height>23</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>519</x>
+    <y>301</y>
+    <width>98</width>
+    <height>1</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="blue" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="97.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>616</x>
+    <y>290</y>
+    <width>122</width>
+    <height>47</height>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>SAMPLE
+ENVIRONMENT</text>
+    <x>627</x>
+    <y>295</y>
+    <width>83</width>
+    <height>27</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>GAS CONCENTRATION</text>
+    <x>595</x>
+    <y>182</y>
+    <width>122</width>
+    <height>13</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM Ellipse</name>
+    <x>650</x>
+    <y>216</y>
+    <width>36</width>
+    <height>36</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>CO</text>
+    <x>658</x>
+    <y>226</y>
+    <width>15</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM Ellipse</name>
+    <x>615</x>
+    <y>216</y>
+    <width>36</width>
+    <height>36</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>COMB</text>
+    <x>616</x>
+    <y>227</y>
+    <width>24</width>
+    <height>9</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="6.930693069306931">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM Ellipse</name>
+    <x>685</x>
+    <y>216</y>
+    <width>36</width>
+    <height>36</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>NH3</text>
+    <x>690</x>
+    <y>226</y>
+    <width>22</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>561</x>
+    <y>321</y>
+    <width>1</width>
+    <height>67</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="66.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM Button</name>
+    <pv_name>BL11A:AGES:XX1166:Byp_Cmd</pv_name>
+    <x>146</x>
+    <y>93</y>
+    <width>85</width>
+    <height>26</height>
+    <off_label>BYPASS</off_label>
+    <off_color>
+      <color name="green" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_label>BYPASS</on_label>
+    <on_color>
+      <color name="yellow" red="255" green="255" blue="0">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+      <action type="write_pv">
+        <pv_name>BL11A:AGES:XX1166:Byp_Cmd</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
+    <rules>
+      <rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0==0">
+          <value>
+            <color name="green" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color name="yellow" red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:XX1166:Byp_Cmd</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM Button</name>
+    <pv_name>BL11A:AGES:XX1166:Byp_Rst</pv_name>
+    <x>231</x>
+    <y>93</y>
+    <width>75</width>
+    <height>26</height>
+    <off_label>RESET</off_label>
+    <off_color>
+      <color name="green" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_label>RESET</on_label>
+    <on_color>
+      <color name="yellow" red="255" green="255" blue="0">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <font>
+      <font family="helvetica" style="BOLD" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+      <action type="write_pv">
+        <pv_name>BL11A:AGES:XX1166:Byp_Rst</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
+    <rules>
+      <rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0==0">
+          <value>
+            <color name="green" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color name="yellow" red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:XX1166:Byp_Rst</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM Ellipse</name>
+    <x>327</x>
+    <y>94</y>
+    <width>27</width>
+    <height>26</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="backColorAlarmRule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pvLegacySev0==-1">
+          <value>
+            <color name="Invalid" red="255" green="0" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvLegacySev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvLegacySev0==2">
+          <value>
+            <color name="Minor" red="255" green="128" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvLegacySev0==0">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:XX1166:ON</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>ENABLE</text>
+    <x>315</x>
+    <y>122</y>
+    <width>39</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextInput</name>
+    <pv_name>BL11A:AGES:XX1166:Byp_Time_Left</pv_name>
+    <x>380</x>
+    <y>96</y>
+    <width>116</width>
+    <height>24</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="12.871287128712872">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="blue" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>TIME LEFT (h)</text>
+    <x>393</x>
+    <y>122</y>
+    <width>69</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>BYPASS DPT-1166 INTERLOCK</text>
+    <x>132</x>
+    <y>67</y>
+    <width>208</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>TO NON-HAZARDOUS
+CABINET CAB11A-01</text>
+    <x>225</x>
+    <y>673</y>
+    <width>75</width>
+    <height>19</height>
+    <font>
+      <font family="helvetica" style="REGULAR" size="6.930693069306931">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>273</x>
+    <y>715</y>
+    <width>4</width>
+    <height>37</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="36.0">
+      </point>
+      <point x="0.0" y="1.0">
+      </point>
+      <point x="3.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>263</x>
+    <y>701</y>
+    <width>20</width>
+    <height>21</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </background_color>
+    <points>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="19.0" y="20.0">
+      </point>
+      <point x="10.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>SAMPLE PIT</text>
+    <x>329</x>
+    <y>512</y>
+    <width>83</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>351</x>
+    <y>579</y>
+    <width>7</width>
+    <height>68</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="67.0">
+      </point>
+      <point x="0.0" y="2.0">
+      </point>
+      <point x="6.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>341</x>
+    <y>564</y>
+    <width>20</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </background_color>
+    <points>
+      <point x="0.0" y="19.0">
+      </point>
+      <point x="19.0" y="19.0">
+      </point>
+      <point x="10.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>TO NON-HAZARDOUS
+CABINET CAB11A-01</text>
+    <x>303</x>
+    <y>541</y>
+    <width>75</width>
+    <height>19</height>
+    <font>
+      <font family="helvetica" style="REGULAR" size="6.930693069306931">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>V-1180E</text>
+    <x>294</x>
+    <y>601</y>
+    <width>42</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>O2</text>
+    <x>367</x>
+    <y>619</y>
+    <width>14</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>350</x>
+    <y>610</y>
+    <width>211</width>
+    <height>1</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="210.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>EDM arc</name>
+    <x>340</x>
+    <y>644</y>
+    <width>25</width>
+    <height>27</height>
+    <start_angle>90.0</start_angle>
+    <total_angle>180.0</total_angle>
+    <line_width>2</line_width>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>352</x>
+    <y>667</y>
+    <width>1</width>
+    <height>86</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="85.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line</name>
+    <x>435</x>
+    <y>610</y>
+    <width>1</width>
+    <height>45</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="44.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>///</text>
+    <x>391</x>
+    <y>602</y>
+    <width>14</width>
+    <height>15</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="11.881188118811881">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>///</text>
+    <x>472</x>
+    <y>601</y>
+    <width>14</width>
+    <height>15</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="11.881188118811881">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>V-1180A,B,C,D</text>
+    <x>398</x>
+    <y>673</y>
+    <width>74</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM Label</name>
+    <text>SV-1181</text>
+    <x>504</x>
+    <y>584</y>
+    <width>42</width>
+    <height>11</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="8.910891089108912">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line_32</name>
+    <x>316</x>
+    <y>916</y>
+    <width>168</width>
+    <height>1</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="93.0" y="0.0">
+      </point>
+      <point x="167.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line_33</name>
+    <x>482</x>
+    <y>907</y>
+    <width>21</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="brt-orange" red="254" green="142" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="brt-orange" red="254" green="142" blue="0">
+      </color>
+    </background_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="19.0">
+      </point>
+      <point x="20.0" y="10.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM Line_34</name>
+    <x>315</x>
+    <y>859</y>
+    <width>1</width>
+    <height>60</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="59.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>512</x>
+    <y>599</y>
+    <width>15</width>
+    <height>23</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Red-Green" red="255" green="0" blue="0">
+      </color>
+    </background_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="22.0">
+      </point>
+      <point x="14.0" y="11.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="background_color_Red-Green" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.5 &amp;&amp; pv0&lt;0.5">
+          <value>
+            <color name="Monitor: MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0&gt;=0.5  &amp;&amp; pv0&lt;=1.5">
+          <value>
+            <color name="Monitor: NORMAL" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:SV1181:Status</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>525</x>
+    <y>599</y>
+    <width>15</width>
+    <height>23</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Red-Green" red="255" green="0" blue="0">
+      </color>
+    </background_color>
+    <points>
+      <point x="14.0" y="22.0">
+      </point>
+      <point x="14.0" y="0.0">
+      </point>
+      <point x="0.0" y="11.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="background_color_Red-Green" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.5 &amp;&amp; pv0&lt;0.5">
+          <value>
+            <color name="Monitor: MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0&gt;=0.5  &amp;&amp; pv0&lt;=1.5">
+          <value>
+            <color name="Monitor: NORMAL" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:SV1181:Status</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>421</x>
+    <y>644</y>
+    <width>15</width>
+    <height>23</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Red-Green" red="255" green="0" blue="0">
+      </color>
+    </background_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="22.0">
+      </point>
+      <point x="14.0" y="11.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="background_color_Red-Green" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.5 &amp;&amp; pv0&lt;0.5">
+          <value>
+            <color name="Monitor: MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0&gt;=0.5  &amp;&amp; pv0&lt;=1.5">
+          <value>
+            <color name="Monitor: NORMAL" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:SV1181:Status</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>434</x>
+    <y>644</y>
+    <width>15</width>
+    <height>23</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Red-Green" red="255" green="0" blue="0">
+      </color>
+    </background_color>
+    <points>
+      <point x="14.0" y="22.0">
+      </point>
+      <point x="14.0" y="0.0">
+      </point>
+      <point x="0.0" y="11.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="background_color_Red-Green" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.5 &amp;&amp; pv0&lt;0.5">
+          <value>
+            <color name="Monitor: MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0&gt;=0.5  &amp;&amp; pv0&lt;=1.5">
+          <value>
+            <color name="Monitor: NORMAL" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:SV1181:Status</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>340</x>
+    <y>608</y>
+    <width>23</width>
+    <height>15</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </background_color>
+    <points>
+      <point x="0.0" y="14.0">
+      </point>
+      <point x="22.0" y="14.0">
+      </point>
+      <point x="11.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM Line</name>
+    <x>340</x>
+    <y>595</y>
+    <width>23</width>
+    <height>15</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-bg/Anno-pri" red="105" green="105" blue="105">
+      </color>
+    </background_color>
+    <points>
+      <point x="22.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="11.0" y="14.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM Rectangle</name>
+    <x>308</x>
+    <y>203</y>
+    <width>107</width>
+    <height>31</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="green-yellow" red="0" green="255" blue="0">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="background_color_green-yellow" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.5 &amp;&amp; pv0&lt;0.5">
+          <value>
+            <color name="Monitor: NORMAL" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0&gt;=0.5  &amp;&amp; pv0&lt;1.5">
+          <value>
+            <color name="Monitor: MINOR" red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:AGES:DPT1166:Alarm</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM Text Update</name>
+    <pv_name>BL11A:AGES:DPT1166:dP</pv_name>
+    <x>308</x>
+    <y>203</y>
+    <width>107</width>
+    <height>31</height>
+    <font>
+      <font family="helvetica" style="BOLD" size="11.881188118811881">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="CF canvas" red="221" green="202" blue="221">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+
+$(pv_value)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <x>595</x>
+    <y>348</y>
+    <width>92</width>
+    <height>84</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="arc" version="2.0.0">
+      <name>Arc</name>
+      <width>49</width>
+      <height>47</height>
+      <total_angle>360.0</total_angle>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1162A:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon</name>
+      <x>2</x>
+      <y>41</y>
+      <width>39</width>
+      <height>13</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <points>
+        <point x="0.0" y="12.0">
+        </point>
+        <point x="38.0" y="12.0">
+        </point>
+        <point x="32.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1162A:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle</name>
+      <x>32</x>
+      <y>3</y>
+      <width>30</width>
+      <height>16</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1162A:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <x>705</x>
+    <y>348</y>
+    <width>97</width>
+    <height>81</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="arc" version="2.0.0">
+      <name>Arc_1</name>
+      <width>52</width>
+      <height>42</height>
+      <total_angle>360.0</total_angle>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1162B:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_1</name>
+      <x>5</x>
+      <y>39</y>
+      <width>42</width>
+      <height>13</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <points>
+        <point x="0.0" y="12.0">
+        </point>
+        <point x="41.0" y="12.0">
+        </point>
+        <point x="35.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1162B:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_1</name>
+      <x>34</x>
+      <y>3</y>
+      <width>33</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1162B:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <x>484</x>
+    <y>796</y>
+    <width>97</width>
+    <height>82</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="arc" version="2.0.0">
+      <name>Arc_2</name>
+      <width>52</width>
+      <height>45</height>
+      <total_angle>360.0</total_angle>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1150B:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_2</name>
+      <x>5</x>
+      <y>41</y>
+      <width>42</width>
+      <height>15</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <points>
+        <point x="0.0" y="14.0">
+        </point>
+        <point x="41.0" y="14.0">
+        </point>
+        <point x="35.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1150B:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_2</name>
+      <x>34</x>
+      <y>5</y>
+      <width>33</width>
+      <height>17</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1150B:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <x>341</x>
+    <y>883</y>
+    <width>97</width>
+    <height>85</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="arc" version="2.0.0">
+      <name>Arc_3</name>
+      <width>52</width>
+      <height>47</height>
+      <total_angle>360.0</total_angle>
+      <line_width>1</line_width>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1150A:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_3</name>
+      <x>5</x>
+      <y>42</y>
+      <width>42</width>
+      <height>15</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <points>
+        <point x="0.0" y="14.0">
+        </point>
+        <point x="41.0" y="14.0">
+        </point>
+        <point x="35.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1150A:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_3</name>
+      <x>34</x>
+      <y>6</y>
+      <width>33</width>
+      <height>18</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Disconnected" red="255" green="0" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Off" red="60" green="100" blue="60">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:AGES:IS1150A:Run</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+  </widget>
+</display>

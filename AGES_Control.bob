@@ -1,0 +1,6432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>POWGEN AGES</name>
+  <width>1280</width>
+  <height>800</height>
+  <background_color>
+    <color name="OPI_Background" red="255" green="255" blue="255">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_41</name>
+    <x>157</x>
+    <y>288</y>
+    <width>1</width>
+    <height>306</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="305.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="12.0">
+      </point>
+      <point x="0.0" y="10.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_22</name>
+    <x>58</x>
+    <y>123</y>
+    <width>322</width>
+    <height>471</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="321.0" y="470.0">
+      </point>
+      <point x="0.0" y="470.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_24</name>
+    <x>286</x>
+    <y>309</y>
+    <width>97</width>
+    <height>121</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="1.0">
+      </point>
+      <point x="50.0" y="0.0">
+      </point>
+      <point x="50.0" y="120.0">
+      </point>
+      <point x="97.0" y="120.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_6</name>
+    <x>450</x>
+    <y>81</y>
+    <width>614</width>
+    <height>164</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="46.0" y="132.0">
+      </point>
+      <point x="46.0" y="163.0">
+      </point>
+      <point x="0.0" y="163.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="413.0" y="0.0">
+      </point>
+      <point x="413.0" y="0.0">
+      </point>
+      <point x="613.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_7</name>
+    <x>548</x>
+    <y>81</y>
+    <width>55</width>
+    <height>164</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="54.0" y="132.0">
+      </point>
+      <point x="54.0" y="163.0">
+      </point>
+      <point x="0.0" y="163.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_8</name>
+    <x>658</x>
+    <y>81</y>
+    <width>55</width>
+    <height>158</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="54.0" y="126.0">
+      </point>
+      <point x="54.0" y="157.0">
+      </point>
+      <point x="0.0" y="157.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_9</name>
+    <x>760</x>
+    <y>81</y>
+    <width>55</width>
+    <height>164</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="54.0" y="131.0">
+      </point>
+      <point x="54.0" y="163.0">
+      </point>
+      <point x="0.0" y="163.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_10</name>
+    <x>859</x>
+    <y>81</y>
+    <width>55</width>
+    <height>164</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="54.0" y="131.0">
+      </point>
+      <point x="54.0" y="163.0">
+      </point>
+      <point x="0.0" y="163.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_11</name>
+    <x>958</x>
+    <y>81</y>
+    <width>55</width>
+    <height>163</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="54.0" y="130.0">
+      </point>
+      <point x="54.0" y="162.0">
+      </point>
+      <point x="0.0" y="162.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_12</name>
+    <x>1058</x>
+    <y>81</y>
+    <width>52</width>
+    <height>164</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="51.0" y="131.0">
+      </point>
+      <point x="51.0" y="163.0">
+      </point>
+      <point x="0.0" y="163.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline</name>
+    <x>475</x>
+    <y>245</y>
+    <width>1</width>
+    <height>349</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="348.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Input</name>
+    <pv_name>BL11A:SE:AlicatAges:AMassFlowSPWrite</pv_name>
+    <x>436</x>
+    <y>361</y>
+    <width>80</width>
+    <height>26</height>
+    <background_color>
+      <color name="WritePV_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_14</name>
+    <x>576</x>
+    <y>245</y>
+    <width>1</width>
+    <height>349</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="205.0">
+      </point>
+      <point x="0.0" y="205.0">
+      </point>
+      <point x="0.0" y="205.0">
+      </point>
+      <point x="0.0" y="348.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_15</name>
+    <x>686</x>
+    <y>245</y>
+    <width>1</width>
+    <height>349</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="348.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_16</name>
+    <x>788</x>
+    <y>245</y>
+    <width>1</width>
+    <height>349</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="203.0">
+      </point>
+      <point x="0.0" y="348.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_17</name>
+    <x>887</x>
+    <y>245</y>
+    <width>2</width>
+    <height>347</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="1.0" y="0.0">
+      </point>
+      <point x="0.0" y="247.0">
+      </point>
+      <point x="0.0" y="247.0">
+      </point>
+      <point x="0.0" y="247.0">
+      </point>
+      <point x="0.0" y="346.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_18</name>
+    <x>986</x>
+    <y>245</y>
+    <width>1</width>
+    <height>347</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="204.0">
+      </point>
+      <point x="0.0" y="204.0">
+      </point>
+      <point x="0.0" y="204.0">
+      </point>
+      <point x="0.0" y="346.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_19</name>
+    <x>1083</x>
+    <y>243</y>
+    <width>1</width>
+    <height>348</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="250.0">
+      </point>
+      <point x="0.0" y="250.0">
+      </point>
+      <point x="0.0" y="250.0">
+      </point>
+      <point x="0.0" y="347.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_20</name>
+    <x>384</x>
+    <y>81</y>
+    <width>710</width>
+    <height>513</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="709.0" y="509.0">
+      </point>
+      <point x="0.0" y="512.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="69.0" y="0.0">
+      </point>
+      <point x="69.0" y="0.0">
+      </point>
+      <point x="69.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_21</name>
+    <x>359</x>
+    <y>206</y>
+    <width>28</width>
+    <height>1</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="27.0" y="0.0">
+      </point>
+      <point x="27.0" y="0.0">
+      </point>
+      <point x="27.0" y="0.0">
+      </point>
+      <point x="27.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="open_display">
+        <file>AGES_Control_haz.opi</file>
+        <target>replace</target>
+      </action>
+    </actions>
+    <text>Hazardous 
+Cabinet</text>
+    <x>14</x>
+    <y>312</y>
+    <width>94</width>
+    <height>74</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_20</name>
+    <pv_name>BL11A:SE:AlicatAges:AAbsPressure</pv_name>
+    <x>436</x>
+    <y>437</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_23</name>
+    <pv_name>BL11A:SE:AlicatAges:AMassFlow</pv_name>
+    <x>436</x>
+    <y>411</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_24</name>
+    <pv_name>BL11A:SE:AlicatAges:AMassFlowSPRead</pv_name>
+    <x>436</x>
+    <y>386</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_25</name>
+    <pv_name>BL11A:SE:AlicatAges:AGasName</pv_name>
+    <x>485</x>
+    <y>130</y>
+    <width>26</width>
+    <height>90</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <rotation_step>1</rotation_step>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_26</name>
+    <pv_name>BL11A:SE:AlicatAges:BGasName</pv_name>
+    <x>591</x>
+    <y>123</y>
+    <width>26</width>
+    <height>90</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <rotation_step>1</rotation_step>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Input_7</name>
+    <pv_name>BL11A:SE:AlicatAges:BMassFlowSPWrite</pv_name>
+    <x>536</x>
+    <y>361</y>
+    <width>80</width>
+    <height>26</height>
+    <background_color>
+      <color name="WritePV_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_27</name>
+    <pv_name>BL11A:SE:AlicatAges:BAbsPressure</pv_name>
+    <x>536</x>
+    <y>437</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_30</name>
+    <pv_name>BL11A:SE:AlicatAges:BMassFlow</pv_name>
+    <x>536</x>
+    <y>411</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_31</name>
+    <pv_name>BL11A:SE:AlicatAges:BMassFlowSPRead</pv_name>
+    <x>536</x>
+    <y>386</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_32</name>
+    <pv_name>BL11A:SE:AlicatAges:CGasName</pv_name>
+    <x>702</x>
+    <y>123</y>
+    <width>26</width>
+    <height>90</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <rotation_step>1</rotation_step>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Input_8</name>
+    <pv_name>BL11A:SE:AlicatAges:CMassFlowSPWrite</pv_name>
+    <x>647</x>
+    <y>361</y>
+    <width>80</width>
+    <height>26</height>
+    <background_color>
+      <color name="WritePV_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_33</name>
+    <pv_name>BL11A:SE:AlicatAges:CAbsPressure</pv_name>
+    <x>647</x>
+    <y>437</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_36</name>
+    <pv_name>BL11A:SE:AlicatAges:CMassFlow</pv_name>
+    <x>647</x>
+    <y>411</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_37</name>
+    <pv_name>BL11A:SE:AlicatAges:CMassFlowSPRead</pv_name>
+    <x>647</x>
+    <y>386</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_38</name>
+    <pv_name>BL11A:SE:AlicatAges:DGasName</pv_name>
+    <x>799</x>
+    <y>123</y>
+    <width>26</width>
+    <height>90</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <rotation_step>1</rotation_step>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_39</name>
+    <pv_name>BL11A:SE:AlicatAges:EGasName</pv_name>
+    <x>900</x>
+    <y>123</y>
+    <width>26</width>
+    <height>90</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <rotation_step>1</rotation_step>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_40</name>
+    <pv_name>BL11A:SE:AlicatAges:FGasName</pv_name>
+    <x>995</x>
+    <y>123</y>
+    <width>26</width>
+    <height>90</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <rotation_step>1</rotation_step>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_41</name>
+    <pv_name>BL11A:SE:AlicatAges:GGasName</pv_name>
+    <x>1093</x>
+    <y>123</y>
+    <width>26</width>
+    <height>90</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <rotation_step>1</rotation_step>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Input_9</name>
+    <pv_name>BL11A:SE:AlicatAges:DMassFlowSPWrite</pv_name>
+    <x>748</x>
+    <y>361</y>
+    <width>80</width>
+    <height>26</height>
+    <background_color>
+      <color name="WritePV_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_42</name>
+    <pv_name>BL11A:SE:AlicatAges:DAbsPressure</pv_name>
+    <x>748</x>
+    <y>437</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_45</name>
+    <pv_name>BL11A:SE:AlicatAges:DMassFlow</pv_name>
+    <x>748</x>
+    <y>411</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_46</name>
+    <pv_name>BL11A:SE:AlicatAges:DMassFlowSPRead</pv_name>
+    <x>748</x>
+    <y>386</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Input_10</name>
+    <pv_name>BL11A:SE:AlicatAges:EMassFlowSPWrite</pv_name>
+    <x>848</x>
+    <y>361</y>
+    <width>80</width>
+    <height>26</height>
+    <background_color>
+      <color name="WritePV_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_47</name>
+    <pv_name>BL11A:SE:AlicatAges:EAbsPressure</pv_name>
+    <x>848</x>
+    <y>437</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_50</name>
+    <pv_name>BL11A:SE:AlicatAges:EMassFlow</pv_name>
+    <x>848</x>
+    <y>411</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_51</name>
+    <pv_name>BL11A:SE:AlicatAges:EMassFlowSPRead</pv_name>
+    <x>848</x>
+    <y>386</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Input_11</name>
+    <pv_name>BL11A:SE:AlicatAges:FMassFlowSPWrite</pv_name>
+    <x>946</x>
+    <y>361</y>
+    <width>80</width>
+    <height>26</height>
+    <background_color>
+      <color name="WritePV_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_52</name>
+    <pv_name>BL11A:SE:AlicatAges:FAbsPressure</pv_name>
+    <x>946</x>
+    <y>437</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_55</name>
+    <pv_name>BL11A:SE:AlicatAges:FMassFlow</pv_name>
+    <x>946</x>
+    <y>411</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_56</name>
+    <pv_name>BL11A:SE:AlicatAges:FMassFlowSPRead</pv_name>
+    <x>946</x>
+    <y>386</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Input_12</name>
+    <pv_name>BL11A:SE:AlicatAges:GMassFlowSPWrite</pv_name>
+    <x>1044</x>
+    <y>361</y>
+    <width>80</width>
+    <height>26</height>
+    <background_color>
+      <color name="WritePV_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_57</name>
+    <pv_name>BL11A:SE:AlicatAges:GAbsPressure</pv_name>
+    <x>1044</x>
+    <y>437</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_60</name>
+    <pv_name>BL11A:SE:AlicatAges:GMassFlow</pv_name>
+    <x>1044</x>
+    <y>411</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_61</name>
+    <pv_name>BL11A:SE:AlicatAges:GMassFlowSPRead</pv_name>
+    <x>1044</x>
+    <y>386</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>BL11A:SE:AGES:INERTBTN1</pv_name>
+    <x>436</x>
+    <y>335</y>
+    <width>80</width>
+    <height>28</height>
+    <off_label>OFF</off_label>
+    <off_color>
+      <color name="Off" red="60" green="100" blue="60">
+      </color>
+    </off_color>
+    <on_label>ON</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_1</name>
+    <pv_name>BL11A:SE:AGES:INERTBTN2</pv_name>
+    <x>536</x>
+    <y>335</y>
+    <width>80</width>
+    <height>28</height>
+    <off_label>OFF</off_label>
+    <off_color>
+      <color name="Off" red="60" green="100" blue="60">
+      </color>
+    </off_color>
+    <on_label>ON</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_2</name>
+    <pv_name>BL11A:SE:AGES:INERTBTN3</pv_name>
+    <x>646</x>
+    <y>335</y>
+    <width>80</width>
+    <height>28</height>
+    <off_label>OFF</off_label>
+    <off_color>
+      <color name="Off" red="60" green="100" blue="60">
+      </color>
+    </off_color>
+    <on_label>ON</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_3</name>
+    <pv_name>BL11A:SE:AGES:INERTBTN4</pv_name>
+    <x>748</x>
+    <y>335</y>
+    <width>80</width>
+    <height>28</height>
+    <off_label>OFF</off_label>
+    <off_color>
+      <color name="Off" red="60" green="100" blue="60">
+      </color>
+    </off_color>
+    <on_label>ON</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_4</name>
+    <pv_name>BL11A:SE:AGES:INERTBTN5</pv_name>
+    <x>848</x>
+    <y>335</y>
+    <width>80</width>
+    <height>28</height>
+    <off_label>OFF</off_label>
+    <off_color>
+      <color name="Off" red="60" green="100" blue="60">
+      </color>
+    </off_color>
+    <on_label>ON</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_5</name>
+    <pv_name>BL11A:SE:AGES:INERTBTN6</pv_name>
+    <x>946</x>
+    <y>335</y>
+    <width>80</width>
+    <height>28</height>
+    <off_label>OFF</off_label>
+    <off_color>
+      <color name="Off" red="60" green="100" blue="60">
+      </color>
+    </off_color>
+    <on_label>ON</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_6</name>
+    <pv_name>BL11A:SE:AGES:INERTBTN7</pv_name>
+    <x>1044</x>
+    <y>335</y>
+    <width>80</width>
+    <height>28</height>
+    <off_label>OFF</off_label>
+    <off_color>
+      <color name="Off" red="60" green="100" blue="60">
+      </color>
+    </off_color>
+    <on_label>ON</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <actions>
+      <action type="open_display">
+        <file>AGES_Control_Advanced.opi</file>
+        <target>replace</target>
+        <description>Advanced</description>
+      </action>
+    </actions>
+    <x>686</x>
+    <y>11</y>
+    <width>197</width>
+    <height>26</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>InPump</name>
+    <x>210</x>
+    <y>277</y>
+    <width>80</width>
+    <height>84</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse</name>
+      <x>2</x>
+      <width>47</width>
+      <height>45</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:InertPumpRead</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon</name>
+      <x>2</x>
+      <y>42</y>
+      <width>47</width>
+      <height>12</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="0.0" y="11.0">
+        </point>
+        <point x="46.0" y="11.0">
+        </point>
+        <point x="35.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:InertPumpRead</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle</name>
+      <x>34</x>
+      <y>10</y>
+      <width>46</width>
+      <height>13</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:InertPumpRead</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_43</name>
+      <pv_name>BL11A:SE:AGES:InertPumpSet</pv_name>
+      <label></label>
+      <x>49</x>
+      <y>36</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_74</name>
+    <pv_name>BL11A:SE:AGES:PressReadPI04</pv_name>
+    <x>280</x>
+    <y>194</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_23</name>
+    <text>PI-04</text>
+    <x>290</x>
+    <y>170</y>
+    <width>44</width>
+    <height>26</height>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_76</name>
+    <pv_name>BL11A:SE:AGES:LogReadPO2</pv_name>
+    <x>453</x>
+    <y>11</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>LogPO2</text>
+    <x>389</x>
+    <y>11</y>
+    <width>58</width>
+    <height>26</height>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_77</name>
+    <pv_name>BL11A:SE:AGES:ReadPO2</pv_name>
+    <x>595</x>
+    <y>11</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>PO2</text>
+    <x>539</x>
+    <y>11</y>
+    <width>44</width>
+    <height>26</height>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>BL11A:SE:AGES:PLCAGESADMINLOGIN</pv_name>
+    <x>888</x>
+    <y>11</y>
+    <width>168</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>1%O2</text>
+    <x>457</x>
+    <y>90</y>
+    <width>80</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>100ppm O2</text>
+    <x>564</x>
+    <y>90</y>
+    <width>92</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>G</text>
+    <x>1094</x>
+    <y>90</y>
+    <width>23</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>SP</text>
+    <x>413</x>
+    <y>386</y>
+    <width>23</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <text>flow</text>
+    <x>402</x>
+    <y>411</y>
+    <width>34</width>
+    <height>26</height>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_15</name>
+    <text>Sample
+AREA</text>
+    <x>21</x>
+    <y>90</y>
+    <width>80</width>
+    <height>91</height>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0==0">
+          <value>
+            <color name="On" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==1">
+          <value>
+            <color name="Off" red="60" green="100" blue="60">
+            </color>
+          </value>
+        </exp>
+        <pv_name>BL11A:SE:AGES:ValveSet111B</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>13A</N>
+    </macros>
+    <x>660</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_13</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_5</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_30</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_31</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_1</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>14A</N>
+    </macros>
+    <x>450</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_14</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_6</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_32</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_33</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_2</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>13B</N>
+    </macros>
+    <x>561</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_16</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_8</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_36</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_37</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_3</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>12B</N>
+    </macros>
+    <x>759</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_17</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_9</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_38</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_39</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_4</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>12A</N>
+    </macros>
+    <x>867</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_18</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_10</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_40</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_42</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_5</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>11B</N>
+    </macros>
+    <x>967</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_19</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_11</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_43</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_44</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_6</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>11A</N>
+    </macros>
+    <x>1066</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_20</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_12</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_45</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_46</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_7</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>1B</N>
+    </macros>
+    <x>450</x>
+    <y>260</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_35</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_27</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_75</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_76</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_22</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>2B</N>
+    </macros>
+    <x>551</x>
+    <y>260</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_36</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_28</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_77</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_78</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_23</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>3B0</N>
+    </macros>
+    <x>665</x>
+    <y>260</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_37</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_29</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_79</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_80</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_24</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>4B</N>
+    </macros>
+    <x>765</x>
+    <y>260</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_38</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_30</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_81</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_82</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_25</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>5B</N>
+    </macros>
+    <x>865</x>
+    <y>260</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_39</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_31</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_83</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_84</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_26</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>6B</N>
+    </macros>
+    <x>960</x>
+    <y>260</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_40</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_32</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_85</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_86</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_27</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>7B</N>
+    </macros>
+    <x>1060</x>
+    <y>260</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_41</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_33</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_87</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_88</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_28</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>1A</N>
+    </macros>
+    <x>430</x>
+    <y>130</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_43</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_35</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_91</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_92</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_30</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>2A</N>
+    </macros>
+    <x>530</x>
+    <y>130</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_44</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_36</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_93</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_94</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_31</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>3A</N>
+    </macros>
+    <x>640</x>
+    <y>130</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_45</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_37</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_95</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_96</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_32</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>4A</N>
+    </macros>
+    <x>740</x>
+    <y>130</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_46</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_38</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_97</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_98</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_33</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>5A</N>
+    </macros>
+    <x>840</x>
+    <y>130</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_47</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_39</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_99</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_100</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_34</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>6A</N>
+    </macros>
+    <x>940</x>
+    <y>130</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_48</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_40</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_101</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_102</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_35</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>7A</N>
+    </macros>
+    <x>1040</x>
+    <y>130</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_49</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_41</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_103</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_104</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_36</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>8B</N>
+    </macros>
+    <x>360</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_50</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_42</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_105</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_106</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_37</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>8A</N>
+    </macros>
+    <x>360</x>
+    <y>260</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_51</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_43</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_107</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_108</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_38</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>10B</N>
+    </macros>
+    <x>40</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_53</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_45</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_111</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_112</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_40</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>10A</N>
+    </macros>
+    <x>310</x>
+    <y>330</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_55</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_47</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_115</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_116</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_42</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_113</name>
+    <x>120</x>
+    <y>267</y>
+    <width>1</width>
+    <height>1</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text_ForeGround" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="Color" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0==1">
+          <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+        </exp>
+        <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>9B</N>
+    </macros>
+    <x>130</x>
+    <y>500</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_52</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_44</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_109</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_110</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_44</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(N)</name>
+    <macros>
+      <N>9A</N>
+    </macros>
+    <x>130</x>
+    <y>270</y>
+    <width>48</width>
+    <height>70</height>
+    <style>1</style>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_54</name>
+      <x>1</x>
+      <y>12</y>
+      <width>6</width>
+      <height>14</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_46</name>
+      <x>1</x>
+      <y>2</y>
+      <width>29</width>
+      <height>38</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="128" green="0" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </background_color>
+      <points>
+        <point x="28.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="0.0" y="37.0">
+        </point>
+        <point x="28.0" y="37.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+        <point x="15.0" y="17.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="OK" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_114</name>
+      <x>9</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_117</name>
+      <x>3</x>
+      <y>18</y>
+      <width>11</width>
+      <height>1</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text_ForeGround" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="8.0" y="0.0">
+        </point>
+      </points>
+      <actions>
+      </actions>
+      <rules>
+        <rule name="Color" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>&lt;color blue="0" green="255" name="OK" red="0"&gt; 
+              &lt;/color&gt;</value>
+          </exp>
+          <pv_name>BL11A:SE:AGES:ValveRead$(N)</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>CheckBox_45</name>
+      <pv_name>BL11A:SE:AGES:ValveSet$(N)</pv_name>
+      <label></label>
+      <x>27</x>
+      <y>8</y>
+      <width>20</width>
+    </widget>
+  </widget>
+</display>
